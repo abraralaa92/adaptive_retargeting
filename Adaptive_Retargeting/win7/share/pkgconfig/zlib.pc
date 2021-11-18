@@ -1,0 +1,13 @@
+prefix=C:/libs4win/install/libzlib/1.2.11/msvc2017-amd64-Debug
+exec_prefix=C:/libs4win/install/libzlib/1.2.11/msvc2017-amd64-Debug
+libdir=C:/libs4win/install/libzlib/1.2.11/msvc2017-amd64-Debug/lib
+sharedlibdir=C:/libs4win/install/libzlib/1.2.11/msvc2017-amd64-Debug/lib
+includedir=C:/libs4win/install/libzlib/1.2.11/msvc2017-amd64-Debug/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
